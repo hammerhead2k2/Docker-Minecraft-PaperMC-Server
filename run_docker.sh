@@ -5,5 +5,5 @@ docker run \
   -v /Users/mtoe/Documents/mcserver:/data:rw \
   -p 25565:25565 \
   -p 25575:25575 \
--i marctv/minecraft-papermc-server:latest
+-i hammerhead2k2/Docker-Minecraft-PaperMC-Server:latest
 docker attach mcserver
